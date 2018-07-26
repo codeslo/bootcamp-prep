@@ -1,7 +1,7 @@
 //Define the sample variable
 let sample = 5;
 
-//Define the funcitons
+//Define the functions
 function firstFunc(){
     sample = 10;
     console.log(sample);
@@ -27,9 +27,9 @@ function fifthFunc(){
     console.log(sample);
 }
 
-//Call the functioins
+//Call the functions
 firstFunc();
+fifthFunc();
 secondFunc();
 thirdfunc();
 fourthFunc();
-fifthFunc();
