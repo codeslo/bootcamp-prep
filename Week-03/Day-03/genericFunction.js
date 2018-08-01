@@ -6,3 +6,8 @@ function yourFunctionName(param1,param2,param3){
     // this is the function body
     return // whatever you need to return
 }
+
+function myFunctionName(param1,param2,param3){
+
+    return // something
+}
