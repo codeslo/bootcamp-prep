@@ -7,4 +7,4 @@ function brokenCode01(num){
 
 }
 
-console.log(brokenCode01(15));
+console.log(brokenCode01(15)); // expect 10
