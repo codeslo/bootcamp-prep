@@ -1,5 +1,5 @@
 function brokenCode01(num){
-    let myNum = num;
+    let myNum = nums;
     if(myNum > 10){
         myNum === 10;
     }
