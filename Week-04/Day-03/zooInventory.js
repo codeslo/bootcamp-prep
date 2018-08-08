@@ -14,7 +14,7 @@ function zooInventory(arr) {
         animal = entry[0];
         species = entry[1][0];
         fact = entry[1][1];
-        result.push(animal + " the " + species + " is " + fact + ".");
+        result.push(animal + " the " + species + " is " + fact + "."); // attention to detail on spacing and punctuation
 
     }
     return result;
