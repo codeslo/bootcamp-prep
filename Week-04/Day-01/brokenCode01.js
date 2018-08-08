@@ -1,7 +1,7 @@
 function brokenCode01(num){
-    let myNum = nums;
-    if(myNum > 10){
-        myNum === 10;
+    let myNum = num;
+    if(myNum < 10){
+        myNum = 10;
     }
     return myNum;
 
