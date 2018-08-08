@@ -23,4 +23,4 @@ console.log(mySlice([1, 2, 3])); // => [1, 2, 3]
 console.log(mySlice([1, 2, 3], -1)); // => [3]
 
 // pass this test, too
-console.log(mySlice(['bagel', 'baguette', 'bialy', 'brioche'], -1));
+console.log(mySlice(['bagel', 'baguette', 'bialy', 'brioche'], -1)); // => ['bagel', 'baguette', 'bialy']
