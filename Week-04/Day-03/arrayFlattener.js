@@ -16,11 +16,12 @@ function arrayFlattener(arr){
                 result.push(arr[i][j]);
             }
         }
+        
         if(i === arr.length-1){
             return result;
         }
     }
 }
 
-//console.log(arrayFlattener([[1,2,3,4],[5,6,7,8]]));
+console.log(arrayFlattener([[1,2,3,4],[5,6,7,8]]));
 console.log(arrayFlattener([1,[2,3],4]));
