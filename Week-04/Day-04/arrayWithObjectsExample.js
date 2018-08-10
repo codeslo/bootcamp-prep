@@ -11,7 +11,19 @@ function keyValueLogger(arr){
 }
 
 // in objectArray, each element is an object literal
-let objectArray = [{'word':'hello','number':3,'place':'San Luis Obispo'},{'word':'bird','number':6,'place':'Atascadero'},{'word':'awesome','number':17,'place':'Morro Bay'}];
+let objectArray = [
+    {
+        'word':'hello',
+        'number':3,
+        'place':'San Luis Obispo'
+    },
+    {'word':'bird',
+    'number':6,
+    'place':'Atascadero'},
+    {'word':'awesome',
+    'number':17,
+    'place':'Morro Bay'}
+];
 
 keyValueLogger(objectArray);
 
