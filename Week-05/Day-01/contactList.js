@@ -1,9 +1,10 @@
-let contactList = {};
+let contactList = {"mwest":{
+    firstName : "Matt",
+    lastName : "West"
+}};
 
-contactList["Quick_Jack"] = ({"FirstName":"Jack","LastName":"Quick","email":"jack.b.quick@gmail.com"});
+contactList.mwest.email = "matt@codeslo.com";
 
 console.log(contactList);
 
-delete contactList.Quick_Jack;
 
-console.log(contactList);
