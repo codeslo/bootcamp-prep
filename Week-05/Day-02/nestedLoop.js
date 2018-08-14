@@ -20,3 +20,4 @@ function getAllKeys(arr){
 let objectArray = [{firstObjectprop:"this is a value"},{secondObjectprop:"this is another value"},{thirdObjectprop:"this is yet another value"}];
 
 console.log(getAllKeys(objectArray));
+
