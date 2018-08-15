@@ -15,3 +15,5 @@ let hedbergQuotes = {
 };
 
 console.log(hedbergQuotes.getQuote());
+
+myObj.myMethod(); // calling a method
