@@ -1,5 +1,6 @@
 function reallyDeepCopy(obj){
     let clone = JSON.parse(JSON.stringify(obj));
+    console.log(clone);
     // rebuild methods
     for(let key in obj){
         if(typeof obj[key] === 'function'){

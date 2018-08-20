@@ -10,6 +10,5 @@ let me2 = {
 let you = {
     name:"Alyssa"
 }
-console.log(me2.name); // 'Tarana'
-console.log(you.name); // 'Alyssa'
-console.log(me2.getGreeting(you)); // => 'Hi Alyssa, my name is Tarana.'
+
+console.log(me2.getGreeting(you)); 
