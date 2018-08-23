@@ -15,3 +15,6 @@ let data = [{
     lastName: "Chan",
     email: "mchan@yahoo.com"
 }];
+
+let contact = data[0];
+
