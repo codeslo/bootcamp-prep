@@ -4,7 +4,6 @@
 
 function reverseArray(arr){
     let tempArr = [];
-    let result = arr.slice();
     for(i = arr.length-1; i >= 0; i--){
         tempArr.push(arr.pop());
     }
