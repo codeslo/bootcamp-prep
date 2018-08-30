@@ -3,10 +3,6 @@
 // Note the unit tests will check that the correct value is returned; they do not check if you console logged the right values at the right time.
 
 function functionLogger(callback,arg){
-   // Function starting
-  console.log('Function starting');
-  // Function complete
-  console.log('Function complete');
   return callback(arg);
 }
 

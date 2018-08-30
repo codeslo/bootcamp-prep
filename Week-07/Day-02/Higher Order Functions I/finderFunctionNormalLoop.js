@@ -1,7 +1,6 @@
 // Define a function 'finderFunction' that takes an array and a callback. Pass each element from the array into the callback. If the callback returns true, return the index of the current element. If the callback never returns true, return -1;
 
 function finderFunction(arr,callback){
-    let result = -1;
     for(let i = 0; i < arr.length; i++){
         if(callback(arr[i])){
             return i;

@@ -6,5 +6,10 @@ function closureFactory(){
       return innerFunc;
 }
 
+//console.log(outerVariable); // undefined
+
 let myClosure = closureFactory();
-console.log(myClosure());
+let myClosure2 = closureFactory();
+//console.log(myClosure());
+
+// console.log(myClosure);

@@ -13,8 +13,10 @@ function disappearingFunction(){
 }
 
 let vanisher = disappearingFunction();
+let vanisher2 = disappearingFunction();
 
 console.log(vanisher()); // 3
 console.log(vanisher()); // 2
 console.log(vanisher()); // 1
+console.log(vanisher2());
 console.log(vanisher()); // undefined

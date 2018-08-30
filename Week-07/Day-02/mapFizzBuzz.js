@@ -5,7 +5,7 @@
 
 let nums = [1,2,3,4,5,10,15,20];
 
-let fb = nums.map((e) => {
+let fb = nums.map(e => {
     if(e % 3 === 0 && e % 5 === 0){
         e = "fizzbuzz";
     }else if(e % 3 === 0){
